@@ -61,7 +61,6 @@
 			<scope>runtime</scope>
 		</dependency>
 
-
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
@@ -96,6 +95,9 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
+			<!-- Maven Dependency Plugin for unpack -->
+			<!-- 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
@@ -118,9 +120,11 @@
 					</execution>
 				</executions>
 			</plugin>
-
+			-->
+			
 			<!-- Dockerfile Maven -->
 			<!-- https://github.com/spotify/dockerfile-maven -->
+			<!--
 			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
@@ -140,6 +144,8 @@
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
 			</plugin>
+			-->
+			
 		</plugins>
 	</build>
 
